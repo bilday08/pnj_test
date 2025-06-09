@@ -1,0 +1,32 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+.vscode/
+
+.env
+*.env
+
+# macOS system files
+.DS_Store
+
+*.log
+
+dump/
+
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Unit test if need
+.pytest_cache/
+.coverage
+htmlcov/
