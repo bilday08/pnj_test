@@ -32,7 +32,7 @@ chuẩn hóa và lưu trữ vào MongoDB (NoSQL).
 +----------------------------------------------+
 |        ETL Layer (Python scripts)            |
 |  - Chuẩn hóa schema                          |
-|  - Làm sạch / deduplication             |
+|  - Làm sạch / deduplication                  |
 |  - Mapping field phù hợp                     |
 +----------------------------------------------+
                     |
