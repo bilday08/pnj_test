@@ -1,0 +1,38 @@
+[
+  {
+    "customerId": "A001",
+    "fullName": "Charlie Pham",
+    "contact": {
+      "email": "charlie@example.com",
+      "phone": "0987654321"
+    },
+    "timestamp": "2024-01-01T09:00:00Z"
+  },
+  {
+    "customerId": "A002",
+    "fullName": "Daisy Nguyen",
+    "contact": {
+      "email": "daisy@example.com",
+      "phone": "0912345678"
+    },
+    "timestamp": "2024-01-02T08:30:00Z"
+  },
+  {
+    "customerId": "A003",
+    "fullName": "Ken Nguyen",
+    "contact": {
+      "email": "ken@example.com",
+      "phone": "0912345667"
+    },
+    "timestamp": "2024-01-03T08:30:00Z"
+  },
+  {
+    "customerId": "A004",
+    "fullName": "Ping Nguyen",
+    "contact": {
+      "email": "ping@example.com",
+      "phone": "0917102102"
+    },
+    "timestamp": "2024-01-02T09:30:00Z"
+  }
+]

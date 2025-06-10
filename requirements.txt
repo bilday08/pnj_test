@@ -1,0 +1,9 @@
+# ETL core
+pandas
+requests
+python-dotenv
+pymongo
+
+# RESTful mock API
+fastapi
+uvicorn
