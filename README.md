@@ -21,6 +21,13 @@ chuẩn hóa và lưu trữ vào MongoDB (NoSQL).
 | API mock       | FastAPI (`mock_api.py`)            |
 | Cấu hình       | `.env`, `config/settings.py`       |
 
+## Bảo mật:
+Một vài đề xuất của cá nhân em hay dùng:
+	- Không để lộ .env --> không commit lên repo, thường sẽ được gửi riêng
+	- Dùng encryption --> mã hoá các trường nhảy cảm như email, phone, mật khẩu trước khi insert
+	- Không log những dữ liệu nhảy cảm --> chỉ hiện thị hash hoặc ID
+	- Ở AWS em thường dùng IAM để kiểm soát ai sẽ có quyền truy vào DynamoDB.
+
 ## Kiến trúc tổng thể
 ![Customer Data Flow](./cdf.png)
 
